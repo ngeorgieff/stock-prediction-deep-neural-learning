@@ -1,0 +1,5 @@
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb/Tesla,%20Inc_price.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb/Tesla,%20Inc_hist.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb/Tesla,%20Inc_prediction.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb/MSE.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb/loss.png)

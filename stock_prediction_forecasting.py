@@ -25,7 +25,7 @@ os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
 
 def main(argv):
     print(tf.version.VERSION)
-    inference_folder = os.path.join(os.getcwd(), 'GOOG_20200704_b5f47746c83698528343678663ac3c96')
+    inference_folder = os.path.join(os.getcwd(), 'TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb')
 
     # load future data
     data = StockData()

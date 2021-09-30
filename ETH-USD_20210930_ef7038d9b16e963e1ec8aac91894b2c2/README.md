@@ -1,0 +1,5 @@
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/ETH-USD_20210930_ef7038d9b16e963e1ec8aac91894b2c2/Ethereum%20USD_price.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/ETH-USD_20210930_ef7038d9b16e963e1ec8aac91894b2c2/Ethereum%20USD_hist.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/ETH-USD_20210930_ef7038d9b16e963e1ec8aac91894b2c2/Ethereum%20USD_prediction.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/ETH-USD_20210930_ef7038d9b16e963e1ec8aac91894b2c2/MSE.png)
+![](https://github.com/JordiCorbilla/stock-prediction-deep-neural-learning/raw/master/ETH-USD_20210930_ef7038d9b16e963e1ec8aac91894b2c2/loss.png)
