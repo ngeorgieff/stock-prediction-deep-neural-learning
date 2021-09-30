@@ -20,12 +20,12 @@ from sklearn.preprocessing import MinMaxScaler
 
 from stock_prediction_numpy import StockData
 from datetime import date
-os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
+os.environ["PATH"] += os.pathsep + '/usr/lib/x86_64-linux-gnu/graphviz'
 
 
 def main(argv):
     print(tf.version.VERSION)
-    inference_folder = os.path.join(os.getcwd(), 'TSLA_20210930_3112c9eb09bc0e5ba7e2cc06e74801eb')
+    inference_folder = os.path.join(os.getcwd(), 'TSLA_20210930_a6675f0060d2263327e826260fec0ad9')
 
     # load future data
     data = StockData()
