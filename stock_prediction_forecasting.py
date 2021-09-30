@@ -25,7 +25,7 @@ os.environ["PATH"] += os.pathsep + '/usr/lib/x86_64-linux-gnu/graphviz'
 
 def main(argv):
     print(tf.version.VERSION)
-    inference_folder = os.path.join(os.getcwd(), 'TSLA_20210930_a6675f0060d2263327e826260fec0ad9')
+    inference_folder = os.path.join(os.getcwd(), 'GOOG_20200704_b5f47746c83698528343678663ac3c96')
 
     # load future data
     data = StockData()

@@ -79,7 +79,7 @@ def main(argv):
 
     print("plotting predictions")
     plt.figure(figsize=(14, 5))
-    plt.plot(test_predictions_baseline[STOCK_TICKER + '_predicted'], color='red', label='Predicted [' + 'GOOG' + '] price')
+    plt.plot(test_predictions_baseline[STOCK_TICKER + '_predicted'], color='red', label='Predicted [' + 'TSLA' + '] price')
     plt.xlabel('Time')
     plt.ylabel('Price [' + 'USD' + ']')
     plt.legend()
@@ -88,7 +88,7 @@ def main(argv):
     plt.pause(0.001)
 
     plt.figure(figsize=(14, 5))
-    plt.plot(test_data.Close, color='green', label='Simulated [' + 'GOOG' + '] price')
+    plt.plot(test_data.Close, color='green', label='Simulated [' + 'TSLA' + '] price')
     plt.xlabel('Time')
     plt.ylabel('Price [' + 'USD' + ']')
     plt.legend()
@@ -100,8 +100,8 @@ def main(argv):
 
 if __name__ == '__main__':
     TIME_STEPS = 3
-    RUN_FOLDER = 'GOOG_20200711_76c9683d2457682b0e2e918d8ef6670e'
-    STOCK_TICKER = 'GOOG'
-    STOCK_START_DATE = pd.to_datetime('2004-08-01')
-    STOCK_VALIDATION_DATE = pd.to_datetime('2017-01-01')
+    RUN_FOLDER = 'TSLA_20210930_86610d43d4875471ce7c57a470b3bef9'
+    STOCK_TICKER = 'TSLA'
+    STOCK_START_DATE = pd.to_datetime('2014-09-01')
+    STOCK_VALIDATION_DATE = pd.to_datetime('2021-09-30')
     app.run(main)
